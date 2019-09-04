@@ -4,7 +4,7 @@ import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+// org.br.camunda.delegates.PrinterDelegate
 public class PrinterDelegate implements JavaDelegate {
 
     private Logger logger = LoggerFactory.getLogger(PrinterDelegate.class);

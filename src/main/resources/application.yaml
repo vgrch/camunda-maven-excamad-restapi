@@ -12,6 +12,7 @@ camunda:
   bpm:
     eventing:
       history: true
+    auto-deployment-enabled: true
 ---
 spring:
   datasource:
@@ -23,7 +24,7 @@ spring:
     console:
       enabled: true
 ---
-#custom camunda rest api declaration
+#custom Camunda rest api
 spring:
   jersey:
-    application-path: rest-api-from-properties
+    application-path: camunda-api
